@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    android:weightSum="15"
+    tools:context=".LanguagesActivity">
+    <!-- top -->
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:src="@drawable/backarrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:text="Languages For Musics"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="What Re YOu Preferred Language for Music?"
+       android:textColor="@color/white"
+       android:gravity="center_horizontal"/>
+    <!--    middle  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hindi"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_170sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_160sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Begali"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_168sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch3"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gujrati"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_168sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch4"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kannada"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_155sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch5"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="malyalam"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_150sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch6"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marathi"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_165sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch7"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Punjabi"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_167sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch8"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamil"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_180sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch9"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telgu"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_180sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch10"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="French"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_170sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch11"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spanish"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_15ssp"/>
+
+            <Switch
+                android:layout_marginLeft="@dimen/_165sdp"
+                android:gravity="center_vertical"
+                android:id="@+id/switch12"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
